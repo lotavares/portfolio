@@ -1,0 +1,36 @@
+{
+  "Navigation": {
+    "myName": "Lorena Tavares",
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact",
+    "toggleTheme": "Basculer le mode sombre",
+    "toggleLanguage": "Passer à l'anglais"
+  },
+  "Introduction": {
+    "title": "Développeur Full Stack",
+    "subtitle": "Créer des expériences numériques avec des technologies modernes et un design réfléchi",
+    "cta": "Voir Mon Travail",
+    "scrollIndicator": "Faire défiler pour explorer"
+  },
+  "Footer": {
+    "myName": "Lorena Tavares",
+    "description": "Développeur full-stack passionné par la création d'expériences web belles et fonctionnelles qui résolvent des problèmes du monde réel.",
+    "quickLinks": "Liens Rapides",
+    "connect": "Se Connecter",
+    "backToTop": "Retour en Haut",
+    "copyright": "Tous droits réservés. Construit avec passion et attention à l'accessibilité.",
+    "madeWith": "Fait avec",
+    "using": "utilisant",
+    "nav": {
+      "about": "À Propos",
+      "projects": "Projets",
+      "contact": "Contact"
+    }
+  },
+  "Metadata": {
+    "title": "Lorena Tavares - Développeur Full Stack",
+    "description": "Développeur Full Stack spécialisé en React, Next.js et technologies web modernes."
+  }
+}

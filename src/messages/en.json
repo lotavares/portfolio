@@ -1,0 +1,36 @@
+{
+  "Navigation": {
+    "myName": "Lorena Tavares",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "toggleTheme": "Toggle dark mode",
+    "toggleLanguage": "Switch to French"
+  },
+  "Introduction": {
+    "title": "Full Stack Developer",
+    "subtitle": "Crafting digital experiences with modern technologies and thoughtful design",
+    "cta": "View My Work",
+    "scrollIndicator": "Scroll to explore"
+  },
+  "Footer": {
+    "myName": "Lorena Tavares",
+    "description": "Full-stack developer passionate about creating beautiful, functional web experiences that solve real-world problems.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "backToTop": "Back to Top",
+    "copyright": "All rights reserved. Built with passion and attention to accessibility.",
+    "madeWith": "Made with",
+    "using": "using",
+    "nav": {
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "Metadata": {
+    "title": "Lorena Tavares - Full Stack Developer",
+    "description": "Full Stack Developer specializing in React, Next.js, and modern web technologies."
+  }
+}
