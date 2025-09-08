@@ -1,8 +1,6 @@
 'use client'
 
-import { Button } from '@/components/ui/button'
 import { motion } from 'framer-motion'
-import { ArrowRight } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { useEffect, useState } from 'react'
 
@@ -68,14 +66,14 @@ export function Introduction() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            <Button
+            {/* <Button
               onClick={scrollToProjects}
               className="group bg-gradient-primary text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-primary/25 flex items-center gap-2 mx-auto"
               size="lg"
             >
               {t('cta')}
               <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </Button>
+            </Button> */}
           </motion.div>
         </motion.div>
 
