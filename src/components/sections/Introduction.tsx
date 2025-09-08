@@ -44,7 +44,7 @@ export function Introduction() {
           transition={{ duration: 0.8 }}
         >
           <motion.h1
-            className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 text-gradient"
+            className="text-4xl/12 sm:text-5xl/12 md:text-6xl/18 lg:text-7xl/24 font-bold mb-6 text-gradient"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}

@@ -104,21 +104,21 @@
 .dark {
   --background: oklch(0.08 0.015 200);
   --foreground: oklch(0.95 0.005 200);
-  --card: oklch(0.12 0.02 200);
+  --card: oklch(0.22 0.02 200);
   --card-foreground: oklch(0.95 0.005 200);
-  --popover: oklch(0.12 0.02 200);
+  --popover: oklch(0.22 0.02 200);
   --popover-foreground: oklch(0.95 0.005 200);
   --primary: oklch(0.721 0.139 196.177);
   --primary-foreground: oklch(0.08 0.015 196);
-  --secondary: oklch(0.15 0.02 196);
+  --secondary: oklch(0.25 0.02 196);
   --secondary-foreground: oklch(0.95 0.005 196);
-  --muted: oklch(0.15 0.02 196);
-  --muted-foreground: oklch(0.6 0.02 196);
-  --accent: oklch(0.2 0.03 196);
+  --muted: oklch(0.25 0.02 196);
+  --muted-foreground: oklch(0.75 0.02 196);
+  --accent: oklch(0.28 0.03 196);
   --accent-foreground: oklch(0.95 0.005 196);
   --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(0.2 0.02 196);
-  --input: oklch(0.2 0.02 196);
+  --border: oklch(0.45 0.02 196);
+  --input: oklch(0.28 0.02 196);
   --ring: oklch(0.721 0.139 196.177);
   --chart-1: oklch(0.488 0.243 264.376);
   --chart-2: oklch(0.696 0.17 162.48);
@@ -141,8 +141,18 @@
   }
   html {
     scroll-behavior: smooth;
+    overflow-y: scroll;
   }
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
   }
+}
+
+.dark footer button[data-variant="outline"] {
+  background-color: var(--card);
+}
+
+.dark footer button[data-variant="outline"]:hover {
+  background-color: color-mix(in oklab, var(--card) 80%, transparent);
 }
