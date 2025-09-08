@@ -31,9 +31,18 @@
   },
   "About": {
     "title": "À Propos de Moi",
-    "description": "Je suis ingénieure en informatique avec plus de 5 ans d’expérience en développement full-stack et en science des données. J’ai travaillé sur des applications évolutives et des systèmes fiables dans des environnements cloud comme AWS et Azure.",
-    "passion": "Je suis passionnée par l’écriture d’un code propre et maintenable et j’aime collaborer dans des équipes agiles pour fournir des solutions qui améliorent l’efficacité et génèrent un impact durable.",
+    "description": "Je suis ingénieure en informatique avec plus de 5 ans d'expérience en développement full-stack et en science des données. J'ai travaillé sur des applications évolutives et des systèmes fiables dans des environnements cloud comme AWS et Azure.",
+    "passion": "Je suis passionnée par l'écriture d'un code propre et maintenable et j'aime collaborer dans des équipes agiles pour fournir des solutions qui améliorent l'efficacité et génèrent un impact durable.",
     "skillsTitle": "Stack Technique"
+  },
+  "Contact": {
+    "title": "Connectons-nous",
+    "subtitle": "Connectons-nous et explorons les opportunités de travailler ensemble.",
+    "links": {
+      "github": "Visiter GitHub",
+      "linkedin": "Visiter LinkedIn",
+      "email": "Envoyer un Email"
+    }
   },
   "Metadata": {
     "title": "Lorena Tavares - Développeuse Full Stack",

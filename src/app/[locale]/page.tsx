@@ -1,4 +1,5 @@
 import { About } from "@/components/sections/About";
+import { Contact } from "@/components/sections/Contact";
 import { Introduction } from "@/components/sections/Introduction";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="min-h-screen">
       <Introduction />
       <About />
+      <Contact />
     </div>
   )
 }
