@@ -26,7 +26,7 @@ export function Footer() {
     {
       name: 'Email',
       href: 'mailto:lbotelhotavares@gmail.com',
-      icon: () => <img src="/gmail-mark.svg" alt="Gmail" className="w-5 h-5" />,
+      icon: () => <img src="/mail.svg" alt="Mail" className="w-6 h-6" />,
 
       label: 'Send me an email'
     }

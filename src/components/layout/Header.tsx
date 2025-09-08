@@ -52,7 +52,7 @@ export function Header() {
   }
 
   const navItems = [
-    { label: t('home'), id: 'home' },
+    { label: t('home'), id: 'introduction' },
     { label: t('about'), id: 'about' },
     { label: t('projects'), id: 'projects' },
     { label: t('contact'), id: 'contact' },

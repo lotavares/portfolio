@@ -29,6 +29,12 @@
       "contact": "Contact"
     }
   },
+  "About": {
+    "title": "About Me",
+    "description": "I’m a Software Engineer with 5+ years of experience in full-stack development and data science. I have worked on scalable applications and reliable systems in cloud environments such as AWS and Azure.",
+    "passion": "I’m passionate about writing clean, maintainable code and enjoy collaborating in Agile teams to deliver solutions that improve efficiency and create lasting impact.",
+    "skillsTitle": "Tech Stack"
+  },
   "Metadata": {
     "title": "Lorena Tavares - Full Stack Developer",
     "description": "Full Stack Developer specializing in React, Next.js, and modern web technologies."

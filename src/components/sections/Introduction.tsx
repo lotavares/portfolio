@@ -81,10 +81,10 @@ export function Introduction() {
 
         {showScrollIndicator && (
           <motion.div
-            className="absolute bottom-8 left-1/2 -translate-x-1/2"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
+            className="fixed right-4 top-1/2 -translate-y-1/2 z-10"
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 20 }}
             transition={{ duration: 1, delay: 1.5 }}
           >
             <div className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center">
