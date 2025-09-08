@@ -35,6 +35,15 @@
     "passion": "I’m passionate about writing clean, maintainable code and enjoy collaborating in Agile teams to deliver solutions that improve efficiency and create lasting impact.",
     "skillsTitle": "Tech Stack"
   },
+  "Contact": {
+    "title": "Let's Connect",
+    "subtitle": "Let's connect and explore opportunities to work together.",
+    "links": {
+      "github": "Visit GitHub",
+      "linkedin": "Visit LinkedIn",
+      "email": "Send Email"
+    }
+  },
   "Metadata": {
     "title": "Lorena Tavares - Full Stack Developer",
     "description": "Full Stack Developer specializing in React, Next.js, and modern web technologies."

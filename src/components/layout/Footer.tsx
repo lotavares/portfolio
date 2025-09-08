@@ -20,13 +20,13 @@ export function Footer() {
     {
       name: 'LinkedIn',
       href: 'https://linkedin.com/in/lbtavares',
-      icon: () => <img src="/linkedin-mark.png" alt="LinkedIn" className="w-6 h-5" />,
+      icon: () => <img src="/linkedin.svg" alt="LinkedIn" className="w-6 h-6 dark:invert" />,
       label: 'Connect with me on LinkedIn'
     },
     {
       name: 'Email',
       href: 'mailto:lbotelhotavares@gmail.com',
-      icon: () => <img src="/mail.svg" alt="Mail" className="w-6 h-6" />,
+      icon: () => <img src="/mail.svg" alt="Mail" className="w-6 h-6 dark:invert" />,
 
       label: 'Send me an email'
     }
