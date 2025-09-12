@@ -3,19 +3,19 @@
 import { motion, type Variants } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 
+const SKILLS = [
+  { name: 'Java', icon: () => <img src="/java.svg" alt="Java" className="h-10 p-0.5" /> },
+  { name: 'Spring Boot', icon: () => <img src="/spring.svg" alt="Spring Boot" className="h-10 p-1" /> },
+  { name: 'Angular', icon: () => <img src="/angular.svg" alt="Angular" className="h-10" /> },
+  { name: 'Typescript', icon: () => <img src="/typescript.svg" alt="Typescript" className="h-10 p-1" /> },
+  { name: 'C#', icon: () => <img src="/csharp.svg" alt="C#" className="h-10" /> },
+  { name: 'SQL', icon: () => <img src="/sql.svg" alt="SQL" className="h-10 p-0.5" /> },
+  { name: 'Azure', icon: () => <img src="/azure.svg" alt="Azure" className="h-10 p-1" /> },
+  { name: 'Git', icon: () => <img src="/git.svg" alt="Git" className="h-10 p-0.5" /> }
+] as const;
+
 export function About() {
   const t = useTranslations('About');
-
-  const skills = [
-    { name: 'Java', icon: () => <img src="/java.svg" alt="Java" className="h-10 p-0.5" /> },
-    { name: 'Spring Boot', icon: () => <img src="/spring.svg" alt="Spring Boot" className="h-10 p-1" /> },
-    { name: 'Angular', icon: () => <img src="/angular.svg" alt="Angular" className="h-10" /> },
-    { name: 'Typescript', icon: () => <img src="/typescript.svg" alt="Typescript" className="h-10 p-1" /> },
-    { name: 'C#', icon: () => <img src="/csharp.svg" alt="C#" className="h-10" /> },
-    { name: 'SQL', icon: () => <img src="/sql.svg" alt="SQL" className="h-10 p-0.5" /> },
-    { name: 'Azure', icon: () => <img src="/azure.svg" alt="Azure" className="h-10 p-1" /> },
-    { name: 'Git', icon: () => <img src="/git.svg" alt="Git" className="h-10 p-0.5" /> }
-  ];
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
@@ -124,7 +124,7 @@ export function About() {
                 variants={containerVariants}
                 className="grid grid-cols-2 sm:grid-cols-4 gap-4"
               >
-                {skills.map((skill, index) => {
+                {SKILLS.map((skill) => {
                   const IconComponent = skill.icon;
                   return (
                     <motion.div
