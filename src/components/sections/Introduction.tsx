@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { useTranslations } from 'next-intl'
 import { useCallback, useEffect, useState } from 'react'
+import { GradientWaves } from '../ui/GradientWaves'
 
 export function Introduction() {
   const t = useTranslations('Introduction')
@@ -18,7 +19,11 @@ export function Introduction() {
   }, [handleScroll])
 
   return (
-    <section id="introduction" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section id="introduction" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-background">
+      <div className="absolute inset-0 overflow-hidden">
+        <GradientWaves />
+      </div>
+      
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
