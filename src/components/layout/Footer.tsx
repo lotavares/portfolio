@@ -61,7 +61,6 @@ export function Footer() {
             <nav className="flex flex-col space-y-2">
               {[
                 { label: t('nav.about'), id: 'about' },
-                // { label: t('nav.projects'), id: 'projects' },
                 { label: t('nav.contact'), id: 'contact' }
               ].map((item) => (
                 <button
