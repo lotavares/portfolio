@@ -1,0 +1,70 @@
+export const SITE_CONFIG = {
+  name: "Lorena Tavares",
+  domain: "https://lorenatavares.com",
+  github: "https://github.com/lotavares",
+  linkedin: "https://www.linkedin.com/in/lbtavares",
+  email: "lbotelhotavares@gmail.com",
+} as const;
+
+export const SEO_CONFIG = {
+  titles: {
+    en: "Lorena Tavares | Software Developer Portfolio",
+    fr: "Lorena Tavares | Portfolio Développeuse Logiciel",
+  },
+  descriptions: {
+    en: "Software Developer with 5+ years experience in full-stack development and data science. Specializing in scalable applications and cloud environments (AWS, Azure).",
+    fr: "Développeuse Logiciel avec plus de 5 ans d'expérience en développement full-stack et science des données. Spécialisée dans les applications évolutives et les environnements cloud (AWS, Azure).",
+  },
+  shortDescriptions: {
+    en: "Software Developer specializing in full-stack development and data science.",
+    fr: "Développeuse Logiciel spécialisée en développement full-stack et science des données.",
+  },
+  keywords: {
+    en: [
+      "Software Developer",
+      "Full-stack Developer",
+      "Java",
+      "Angular",
+      "Spring Boot",
+      "TypeScript",
+      "Data Science",
+      "AWS",
+      "Azure",
+      "C#",
+      "SQL",
+      "Portfolio",
+    ],
+    fr: [
+      "Développeuse Logiciel",
+      "Développeuse Full-stack",
+      "Java",
+      "Angular",
+      "Spring Boot",
+      "TypeScript",
+      "Science des Données",
+      "AWS",
+      "Azure",
+      "C#",
+      "SQL",
+      "Portfolio",
+    ],
+  },
+  images: {
+    og: "/og-image.png",
+    apple: "/apple-touch-icon.png",
+    favicon: "/favicon.svg",
+  },
+  skills: [
+    "Full-stack Development",
+    "Data Science",
+    "Cloud Computing",
+    "Java",
+    "Spring Boot",
+    "Angular",
+    "TypeScript",
+    "C#",
+    "SQL",
+    "Azure",
+    "Git",
+  ],
+} as const;
