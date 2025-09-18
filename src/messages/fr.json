@@ -9,14 +9,14 @@
     "toggleLanguage": "Passer à l'anglais"
   },
   "Introduction": {
-    "title": "Ingénieure Logiciel",
+    "title": "Développeuse Logiciel",
     "subtitle": "Développer des logiciels de haute qualité, avec précision et soin",
     "cta": "Voir Mon Travail",
     "scrollIndicator": "Faire défiler pour explorer"
   },
   "Footer": {
     "myName": "Lorena Tavares",
-    "description": "Ingénieure Logiciel passionnée par la création d'expériences web belles et fonctionnelles qui résolvent des problèmes du monde réel.",
+    "description": "Développeuse Logiciel passionnée par la création d'expériences web belles et fonctionnelles qui résolvent des problèmes du monde réel.",
     "quickLinks": "Liens Rapides",
     "connect": "Se Connecter",
     "backToTop": "Retour en Haut",
@@ -31,7 +31,7 @@
   },
   "About": {
     "title": "À Propos de Moi",
-    "description": "Je suis Ingénieure Logiciel avec plus de 5 ans d'expérience en développement full-stack et en science des données. J'ai travaillé sur des applications évolutives et des systèmes fiables dans des environnements cloud comme AWS et Azure.",
+    "description": "Je suis Développeuse Logiciel avec plus de 5 ans d'expérience en développement full-stack et en science des données. J'ai travaillé sur des applications évolutives et des systèmes fiables dans des environnements cloud comme AWS et Azure.",
     "passion": "Je suis passionnée par l'écriture d'un code propre et maintenable et j'aime collaborer dans des équipes agiles pour fournir des solutions qui améliorent l'efficacité et génèrent un impact durable.",
     "skillsTitle": "Stack Technique"
   },
