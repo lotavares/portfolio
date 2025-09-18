@@ -19,11 +19,11 @@ export function Introduction() {
   }, [handleScroll])
 
   return (
-    <section id="introduction" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-background">
+    <section id="introduction" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-background" aria-label="Introduction section">
       <div className="absolute inset-0 overflow-hidden">
         <GradientWaves />
       </div>
-      
+
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -63,6 +63,8 @@ export function Introduction() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 20 }}
             transition={{ duration: 1, delay: 1.5 }}
+            aria-label="Scroll down indicator"
+            role="img"
           >
             <div className="w-6 h-10 border-2 border-muted-foreground rounded-full flex justify-center">
               <div className="w-1 h-3 bg-muted-foreground rounded-full mt-2 animate-bounce"></div>

@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://lorenatavares.com/sitemap.xml
+
+# Block Next.js internals and build files
+Disallow: /_next/
+Disallow: /api/
+
+# Block common non-essential files
+Disallow: /*.json
+Disallow: /*.map

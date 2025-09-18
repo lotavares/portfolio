@@ -90,7 +90,11 @@ export function About() {
             viewport={{ once: true }}
             className="relative"
           >
-            <div className="mx-auto w-48 h-48 bg-gradient-primary rounded-full flex items-center justify-center text-white text-6xl font-bold shadow-xl">
+            <div
+              className="mx-auto w-48 h-48 bg-gradient-primary rounded-full flex items-center justify-center text-white text-6xl font-bold shadow-xl"
+              role="img"
+              aria-label="Lorena Tavares profile avatar with initials LT"
+            >
               LT
             </div>
           </motion.div>
