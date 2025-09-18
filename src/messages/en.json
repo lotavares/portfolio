@@ -9,14 +9,14 @@
     "toggleLanguage": "Switch to French"
   },
   "Introduction": {
-    "title": "Software Engineer",
+    "title": "Software Developer",
     "subtitle": "Developing high-quality software with precision and care",
     "cta": "View My Work",
     "scrollIndicator": "Scroll to explore"
   },
   "Footer": {
     "myName": "Lorena Tavares",
-    "description": "Software Engineer passionate about creating beautiful, functional web experiences that solve real-world problems.",
+    "description": "Software Developer passionate about creating beautiful, functional web experiences that solve real-world problems.",
     "quickLinks": "Quick Links",
     "connect": "Connect",
     "backToTop": "Back to Top",
@@ -31,7 +31,7 @@
   },
   "About": {
     "title": "About Me",
-    "description": "I'm a Software Engineer with 5+ years of experience in full-stack development and data science. I have worked on scalable applications and reliable systems in cloud environments such as AWS and Azure.",
+    "description": "I'm a Software Developer with 5+ years of experience in full-stack development and data science. I have worked on scalable applications and reliable systems in cloud environments such as AWS and Azure.",
     "passion": "I’m passionate about writing clean, maintainable code and enjoy collaborating in Agile teams to deliver solutions that improve efficiency and create lasting impact.",
     "skillsTitle": "Tech Stack"
   },

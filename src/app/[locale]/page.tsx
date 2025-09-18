@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Lorena Tavares | Portfolio",
-  description: "Software Engineer",
+  description: "Software Developer",
   icons: {
     icon: '/favicon.svg',
   },
